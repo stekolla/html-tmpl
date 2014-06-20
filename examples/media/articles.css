@@ -1,0 +1,20 @@
+body {
+  background: #f4f4f4;
+}
+
+article {
+  display: inline;
+}
+
+.article-container {
+  margin: 1em auto;
+  width: 1000px;
+}
+
+*[data-template] {
+  visibility: hidden;
+}
+
+*[data-template][data-processed] {
+  visibility: inherit;
+}

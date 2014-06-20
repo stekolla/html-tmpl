@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+.featured-article {
+  display: block;
+  box-sizing: border-box;
+  width: 99%;
+  background: #fff;
+  border: 1px solid #dedede;
+  margin: 0 0 1em;
+  padding: 1em;
+}
+
+.featured-article .title h2 {
+  margin: 0 auto;
+  font: 2em/1.25em "Oswald", sans-serif;
+}
+
+.featured-article .title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.featured-article  .description p {
+  margin: 0.8em 0 0;
+  font: 1em/1.6em Helvetica, Arial;
+}
+
+.featured-article .content {
+  position: relative;
+  width: 100%;
+  background: #000;
+  margin: 1em 0 0;
+  overflow: hidden;
+}
+
+.featured-article .content img{
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.featured-article .content .extra {
+  position: relative;
+  padding: 1.5em 1em 1em;
+}
+
+.featured-article .content .extra p {
+  margin: 0.8em 0 0;
+  font: 1em/1.6em Helvetica, Arial;
+  color: #fff;
+}
+
+.featured-article .content .featured {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  font: 0.85em Helvetica, Arial;
+  padding: 0.5em 2em;
+}
